@@ -1,0 +1,15 @@
+# Build artifacts
+*.o
+a.out
+Colleen
+Grace
+Sully
+
+# Generated sources and executables
+Grace_kid.c
+Grace_kid.s
+Grace_kid.go
+Sully_[0-9]*
+
+# Quine comparison output
+tmp_Colleen
