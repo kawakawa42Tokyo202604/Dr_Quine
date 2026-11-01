@@ -1,7 +1,7 @@
 NASM = nasm
 NASMFLAGS = -f elf64
 CC = cc
-LDFLAGS = -no-pie -Wl,-z,noexecstack
+LDFLAGS = -Wl,-z,noexecstack
 
 PROGRAMS = Colleen Grace Sully
 OBJECTS = $(PROGRAMS:=.o)
